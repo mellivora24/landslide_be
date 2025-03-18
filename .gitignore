@@ -1,18 +1,25 @@
-# See https://www.dartlang.org/guides/libraries/private-files
-
-# Files and directories created by the Operating System
-.DS_Store
-
-# Files and directories created by pub
-.dart_tool/
-.packages
-pubspec.lock
-
-# Files and directories created by dart_frog
-build/
-.dart_frog
-
-# Test related files
-coverage/
-
+node_modules/
 .env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+dist/
+build/
+
+*.tmp
+*.bak
+*.swp
+
+.vscode/
+.idea/
+*.sublime-*
+
+
+.DS_Store
+Thumbs.db
